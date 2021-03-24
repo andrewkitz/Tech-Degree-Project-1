@@ -7,8 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Arial', sans-serif;
-  color: #222;
+  font-family: Arial, sans-serif;
   background: #f7f5f0;
 }
 /* Link Styles */
@@ -69,18 +68,18 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 0%;
+  border: 1px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2);
 }
 .tag {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 2px;
   display: table;
   margin: 10px auto;
 } 
@@ -88,6 +87,41 @@ header .profile-image:hover {
   background-color: rgba(34, 34, 34, 0.541);
   color: rgb(228, 228, 216);
 }
+
+.title {
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 28px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px;
+  padding: 20px 40px 40px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 0px;
+  transition: all .5s;
+}
+
+.column-left {
+  float: left;
+  max-width: 33.3333%;
+  padding: 10px;
+
+}
+.column-right {
+  float: right;
+  max-width: 33.3333%;
+  padding: 10px;
+}
+.column-center {
+  display: inline-block;
+  max-width: 33.3333%;
+  padding: 10px;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -109,16 +143,17 @@ ul.skills {
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 2px;
   display: inline-block;
-  background: #ff9904;
+  background: #966915b4;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #567b9e;
+  ;
 }
 
 footer {
