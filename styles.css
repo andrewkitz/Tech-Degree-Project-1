@@ -89,7 +89,7 @@ header .profile-image:hover {
 }
 
 .title {
-text-align: center;
+text-align: left;
 font-family: Arial, sans-serif;
 font-size: 28px;
 }
@@ -108,18 +108,24 @@ font-size: 28px;
 .column-left {
   float: left;
   max-width: 33.3333%;
-  padding: 10px;
-
+  padding-right: 10px;
 }
 .column-right {
   float: right;
   max-width: 33.3333%;
-  padding: 10px;
+  padding-left: 10px;
 }
 .column-center {
   display: inline-block;
   max-width: 33.3333%;
   padding: 10px;
+}
+
+.tile-image {
+  max-width: 80%;
+  margin: auto;
+  padding: 5px;
+  display: block;
 }
 
 .card {
