@@ -118,7 +118,8 @@ font-size: 28px;
 .column-center {
   display: inline-block;
   max-width: 33.3333%;
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .tile-image {
